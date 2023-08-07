@@ -1,5 +1,6 @@
 ---
 - name: Create a file
+- hosts: cloud
   file:
     path: /home/hcligt
     state: touch
