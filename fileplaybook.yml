@@ -2,7 +2,7 @@
 - name: file module demo
   hosts: cloud
   tasks:
-    - name: Creating an empty file
-        name: f1.txt
-        path: /home/hcligt
-        state: touch
+        - name: Creating an empty file
+                name: f1.txt
+                path: /home/hcligt
+                state: touch
