@@ -1,6 +1,8 @@
 ---
-- name: Create a file
-- hosts: cloud
-  file:
-    path: /home/hcligt
-    state: touch
+- name: file module demo
+  hosts: cloud
+  tasks:
+    - name: Creating an empty file
+        name: f1.txt
+        path: /home/hcligt
+        state: touch
